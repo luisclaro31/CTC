@@ -1,0 +1,12 @@
+<IfModule mod_suphp.c>
+  suPHP_ConfigPath /home/packages/public_html/[% url_path %]/
+<Files php.ini>
+  order allow,deny
+  deny from all
+</Files>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /[% url_path %]/
+</IfModule>

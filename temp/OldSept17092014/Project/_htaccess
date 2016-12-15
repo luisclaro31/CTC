@@ -1,0 +1,7 @@
+<IfModule mod_suphp.c>
+ suPHP_ConfigPath /home1/daniel/public_html/excellentiam/Project 
+  <Files php.ini>
+     order allow,deny
+        deny from all
+         </Files>
+         </IfModule>

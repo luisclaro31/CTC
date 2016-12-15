@@ -1,0 +1,63 @@
+* { margin: 0; padding: 0; }
+html{overflow-x:hidden;} 
+body { font: 13px Arial; color: #222; background-color: #01192d; oveflow-x: hidden; border:0;}
+a{color:#16219C;text-decoration: none;}
+img{border: 0;}
+/********************************************Estilos Pagina Nueva**************************************************************/
+#divPrincipal{background-image: url('/config/images/fondo-v.jpg'); background-repeat: repeat;width: 100%;height: 550px;padding-top: 8px;}
+#divCentrado{width: 100%;color: #fff;}
+#menu{list-style:none;margin:0;padding:0;text-align: center;}
+#menu li{margin:2px;margin-left: 25px;padding:2px;float:left; border-right: 2px solid #111;width: 230px; height: 30px;}
+#menu li a {color: #fff;display:block;width:205px;height: 40px;padding:4px 0;text-decoration:none;text-align:center;font-size:13px;text-transform: uppercase;background-image: url('/config/images/menu-sin.png');background-repeat: no-repeat;background-position-y: 22px;}
+#menu li a:hover {color:#93C4EC;}
+.select{background-image: url('/config/images/bajo-menu.png');background-repeat: no-repeat;background-position-y: 22px;background-position-x: 105px;height: 31px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;CCborderRadius: 5px;}
+.select a{margin-left: 18px;margin-right: 18px;color:#93C4EC;}
+#divCabecera{width: 100%;background-color: #EBEBEB;height: 100px;}
+#divCont1{width: 80%;} 
+.floatLeft{float: left;}
+.floatRight{float: Right;margin-right: 8px;}
+#divCont2{float: right;width: 60%;}
+.textRight{text-align: right;}
+#divCreandoIn{color: #000E29; font-weight: bold; font-size: 17px;text-align: right;}
+#divBuscar{color: #000E29; font-weight: bold; font-size: 15px;text-align: right;}
+#divImgBuscar{float: right;margin-left: -2px;}
+#divTextoBuscar{float: right;margin-top: 4px;}
+#divAyuda{float: right;margin-top: 5px;margin-right: 5px;}
+#linSuperior{clear: both;width: 100%; height: 10px;background-color: #027C0C;margin-top: -5px;z-index: 100;}
+#divMenu{ background-repeat: repeat-x;width: 100%;height: 37px;padding-top: 4px;background-color: #00192D;z-index: 100;margin-top: 1px;}
+#marginMenu{margin-left: 55%;}
+#linInferior{clear: both;width: 100%; height: 10px;background-color: #006C8F;margin-top: 0;}
+#divCont3{clear: both;width: 100%;height: 98px;background-color: #D9DBDD;padding-top: 1px;}
+#divFin{-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;CCborderRadius: 5px;width: 27%;border: 2px solid #A1A1A1;margin-bottom: 1px;width: 80%;height: 90px;background-color: #EBEBEB;border-left: 2px solid #A1A1A1;border-right: 2px solid #A1A1A1;font-weight: bold;font-size: 11px;}
+#divLogoAbajo{float: left;width: 30%;margin-top: 17px;}
+.logo{width: 180px; height: 50px;}
+#divContacto{float: left;text-align: center;margin-top: 18px;width: 40%;}
+#divLinks{float: right;text-align: left;width: 18%;margin-top: 15px;}
+#divSiguenos{float: right;text-align: right;width: 12%;margin-top: 15px;}
+#copyRight{clear: both; width: 100%; text-align: center;}
+#divContenedorPrincipal{width: 100%; height: 100%;background-image: url('/config/images/fondo-b.jpg');padding-top: 10px;padding-bottom: 10px;}
+#divContenedorSubPrincipal{-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;CCborderRadius: 5px;width: 80%; background-color: #E9E9E9;border: 2px solid #A1A1A1;margin-top: 10px;}
+#divTitulo{width: 93%;border-bottom: 1px dashed #666668;height: 50px;}
+#divTituloFuente{float: left;font-weight: bold;font-size: 18px;margin-top: 14px;}
+#divFecha{float: right;font-size: 13px;font-weight: bold;margin-top: 14px;margin-left: 4px;}
+#divFloatRight{float: right;}
+#divDescripcion{height: 110px;width: 93%; margin-top: 10px;border-bottom: 1px dashed #666668;}
+#divAncho{float: right;width: 30%;}
+#divTexto{float: left;font-weight: bold;text-align: justify;width: 98%;padding: 4px;font-size: 12px;}
+.both{clear: both;}
+#divServicios{margin-top: 15px;margin-bottom: 15px;width: 93%;}
+.divServiciosMarco{height: 350px;margin-left: 30px;float: left;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;CCborderRadius: 5px;width: 27%;border: 2px solid #031019;margin-bottom: 15px}
+.divTituloPortafolio{background-color: #031019;color: #fff;height: 25px;padding: 6px;}
+.imgPortafolio{width: 100%;height: 175px;}
+.textoDivPortafolio{color: #10293D;background-color: #CECECE;font-weight: bold;text-align: justify;font-size: 11px;padding: 8px;}
+.leerMas{text-align: right;color: #FF7C03;}
+.textNaranja{color: #FF7C03;}
+#divSemiFinal{clear: both;margin-top: 15px;}
+#divSemiFinal2{margin-top: 15px;}
+#divQuienesSomos{width: 93%; margin-top: 10px;;}
+.divQuienesSomos2{clear: both;float: left;font-weight: bold;text-align: justify;width: 95%;padding: 1px;font-size: 12px;border: 2px solid #031019;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;CCborderRadius: 5px;color: #10293D;background-color: #CECECE;font-weight: bold;text-align: justify;font-size: 11px;}
+.divQuienesSomos2-1{float: left;margin-right: 15px;} 
+.textoQuienesSomos{padding: 15px;padding-top: 25px;font-size: 12px;}
+.tituloQuienesSomos{clear: both;float: left;font-weight: bold;font-size: 18px;margin-top: 14px;margin-bottom: 10px;}
+.lineaDashed{clear: both;border-top: 1px dashed #666668;width: 100%;height: 1px;margin-top: 10px;margin-bottom: 10px;}
+.forma{-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;CCborderRadius: 5px;}

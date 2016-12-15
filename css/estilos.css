@@ -1,0 +1,597 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDEE;
+    font-size: 11px;
+    font-family: Arial;
+}
+table, th, td
+{
+    border: 1px solid #111;
+    padding: 8px;
+    border-collapse: collapse;    
+}
+input
+{
+    width: 190px;
+}
+textarea
+{
+    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    overflow:-moz-scrollbars-vertical;
+}
+select
+{
+    width: 190px;
+}
+.legend
+{
+    font-weight: bold;
+    margin-bottom: 15px;    
+}
+fieldset
+{
+    width: 570px;
+    padding: 15px;      
+}
+.td
+{
+    border: 1px solid #111;
+    padding: 8px;
+    border-collapse: collapse;
+    table-layout:fixed;
+    word-wrap: break-word;
+    width: 105px;
+}
+.tdAmpliadoConsulta
+{
+    border: 1px solid #111;
+    padding: 8px;
+    border-collapse: collapse;
+    table-layout:fixed;
+    word-wrap: break-word;
+    width: 114px; 
+}
+.displayNone
+{
+    display: none;
+}
+input.error 
+{ 
+    border: 1px solid red; 
+}
+select.error 
+{ 
+    border: 1px solid red; 
+}
+label.error 
+{
+    background: url('http://jqueryvalidation.org/files/demo/images/unchecked.gif') no-repeat;
+    padding-left: 16px;
+    margin-left: .3em;
+    color: #A30000;
+}
+label.valid 
+{   
+    background: url('http://jqueryvalidation.org/files/demo/images/checked.gif') no-repeat;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+.tdFormulario
+{
+    padding-right: 15px;
+    padding-bottom: 10px;
+    width: 220px;
+    text-align: left;
+}
+.tdFormularioAmpliado
+{
+    padding-right: 15px;
+    padding-bottom: 10px;
+    width: 350px;
+}
+.check
+{
+    width: 15px;
+}
+.button
+{
+    background-color: #444497;
+    color: #fff;
+    width: 125px;
+}
+.radio
+{
+    width: 15px;
+}
+.tdMiddle
+{
+    vertical-align: middle;
+}
+#divLogo
+{
+    float: left;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+#divCabecera 
+{
+    display: block;
+    width: 88%;
+    margin: 1px auto;
+    padding: 1px;
+    border: 1px solid #2B3786;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: rgb(150,150,150) 6px 6px;
+}
+#divPrincipal 
+{
+    display: block;
+    width: 88%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #2B3786;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: rgb(150,150,150) 6px 6px;
+}
+#login 
+{
+    display: block;
+    width: 370px;
+    margin: 30px auto;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #2B3786;
+    background: #ffffff;
+    border-radius: 10px;
+}
+#titu {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    text-align: left;
+    border: 1px solid #2B3786;
+    background: #ededed;
+    font: bold 14px verdana, sans-serif;
+    text-shadow: rgb(0,0,150) 3px 3px 5px;
+    border-radius: 3px;
+    color: #003386;
+}
+#divLineaFinal {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 1px;
+    border: 0px solid #2B3786;
+    border-radius: 5px;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: right;
+    font-family: Arial;
+    color: #031A2F;
+}
+#divBienvenido
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+#buscar
+{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: right;
+    width: 98%;    
+}
+.floatLeft
+{ 
+    float: left; 
+}
+.floatRight
+{ 
+    float: right; 
+}
+#titEncabezado
+{
+    float: right;
+    color: #111;
+    text-shadow: 0.1em 0.1em 0.15em #7C7C7C; 
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: 11px;
+    text-transform: uppercase;
+    padding: 0;
+}
+.clearBoth
+{ 
+    clear: both; 
+}
+.clearBothMenu
+{ 
+    clear: both; 
+    margin-bottom: 10px;
+}
+.weight
+{
+    font-weight: bold; 
+}
+.divInformacionDirectivos
+{
+    width: 100%; 
+    text-align: left; 
+    margin-top: 20px; 
+    clear: both;
+    border-bottom: 1px solid #111;
+}
+#divTituloPrincipal
+{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #2B3786;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#divPaginado
+{
+    margin-top: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+.divTabs
+{ 
+    margin-top: 25px; 
+}
+.trTitulo
+{
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    //background-color: #515151;
+    color: #2B3786;
+}
+.trDatos
+{
+    font-weight: normal;
+    font-size: 12px;
+}
+#divExportarFormatos
+{
+    border-top: 1px solid #111;
+    width: 100%; 
+    height: 70px; 
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ventana
+{ 
+    display:none;    
+    text-align:justify;    
+}
+.inputAmpliado
+{
+    width: 220px;
+}
+#tabConsultar
+{
+    padding-top: 25px;
+}
+.divImgEditar
+{
+    float: left;
+    margin-left: 8px;
+}
+.divImgEliminar
+{
+    float: left;
+    margin-left: 8px;
+    margin-top: -2px;
+}
+#divExportarExcel
+{
+    float: left;
+    margin-right: 52px;
+    margin-left: 37%;
+    margin-top: 15px;
+}
+#divExportarPdf
+{
+    float: left;
+    margin-top: 15px;
+}
+#divError
+{
+    float: left;
+    font-size: 11px;
+    color: #A30000;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+#divErrorMod
+{
+    float: left;
+    font-size: 11px;
+    color: #A30000;
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+.fuenteRoja
+{
+    color: #A30000;
+}
+.fuenteBlanca
+{
+    color: #fff;
+}
+#tdLector
+{
+    width: 41px;
+}
+#tdAdministrador
+{
+    width: 81px;
+}
+.divGuardar
+{
+    margin-top: 15px;
+}
+#divGuardarMod
+{
+    float: left; 
+    margin-left: 42%;
+}
+#divRegresarMod
+{
+    float: left; margin-left: 30px;
+}
+.submit
+{
+    border: 0; 
+    cursor: pointer;
+    background-color: #fff;
+}
+.campoObligatorio
+{
+    color: #CF1D1D;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.divValidacionCampo
+{
+    color: #CF1D1D; 
+    float: left;
+    margin-left: 15px;
+    margin-top: 1px;
+    font-size: 10px;
+    width: 70px;
+}
+.divControl
+{
+    float: left;
+    margin-right: 2px;
+}
+#sidemenu 
+{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  float: left;
+  background: #EDEDEE;
+  border-right: 1px solid #c9c9c9;
+}
+#sidemenu li 
+{ 
+    display: block; 
+    text-align: center; 
+    border-top: 1px solid #fff; 
+    font-size: 1.1em; 
+}
+#sidemenu li a 
+{ 
+  display: block;
+  padding: 6px 2px;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #d1d1d1;
+
+}
+#sidemenu li a:hover 
+{
+  background: #f2f2f2;
+}
+#sidemenu li a strong 
+{ 
+  display: block;
+  margin-top: 5px;
+}
+#sidemenu li a.open 
+{
+  width: 101%;
+  background: #fff;
+}
+#sidemenuMod 
+{
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  float: left;
+  background: #EDEDEE;
+  border-right: 1px solid #c9c9c9;
+}
+#sidemenuMod li 
+{ 
+    display: block; 
+    text-align: center; 
+    border-top: 1px solid #fff; 
+    font-size: 1.1em; 
+}
+#sidemenuMod li a 
+{ 
+  display: block;
+  padding: 6px 2px;
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #d1d1d1;
+
+}
+#sidemenuMod li a:hover 
+{
+  background: #f2f2f2;
+}
+#sidemenuMod li a strong 
+{ 
+  display: block;
+  margin-top: 5px;
+}
+#sidemenuMod li a.open 
+{
+  width: 101%;
+  background: #fff;
+}
+/*css Menu*/
+#divMenu 
+{
+  font-family: Arial;
+  font-size: 8px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  float: right;
+}
+#divMenu > ul 
+{
+  width: auto !important;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;  
+}
+#divMenu > ul li a 
+{
+  display: block;
+  padding: 7px 10px 7px 10px;
+  text-decoration: none;
+  color: #2B3786;
+  text-shadow: 0px 1px 0px #fff;
+}
+.ui-menu .ui-menu {
+    overflow: visible !important;
+}
+.ui-menu > li { 
+    float: left;
+    display: block;
+    width: 141px;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 9px;
+    color: #111;
+    text-shadow: #87CEEB 1px 3px; 
+}
+.ui-menu ul li {
+    display:block;
+    float:none;
+}
+.ui-menu ul li ul {
+    left:140px !important;
+    width:140px;
+}
+.ui-menu ul li ul li {
+    width:120px;
+}
+.ui-menu ul li ul li a {
+    float:left;
+    width:120px;    
+}
+.ui-menu > li {
+    margin: 5px 5px !important;
+    padding: 0 0 !important;
+}
+.ui-menu > li > a { 
+    /*float: left;*/
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.ui-menu .ui-menu-icon { 
+    margin-top: 0.3em !important;
+}
+.ui-menu .ui-menu .ui-menu li { 
+    float: left;
+    display: block;
+}
+.ui-tabs .ui-state-disabled { 
+    display: none; /* disabled tabs don't show up */ 
+} 
+
+
+/*calendario*/
+#calendario{
+     background: #2B3786;
+     color: #A4A4A4;
+     padding: 110px;
+    text-align: center;
+    margin: auto;
+ }
+#calendario tr{
+}
+
+.dias td{
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dias td:hover{
+    background: #fff;
+    color: #111;
+}
+
+.dias td .dias{
+    text-align: left;
+}
+
+.dias .hoy{
+    background: #FFF1A5;
+    color: #2B3786;
+    border: 1px solid #fff;
+}
+
+#links{
+    color: #fff;
+    font-size: 14px;
+}
+
+.highlight{
+    color: blue;
+    font-weight: bold;
+}
+

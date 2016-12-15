@@ -1,0 +1,21 @@
+$(function() {
+    $('#sltClaseDirectiva').attr('disabled', 'disabled');   
+    $('#sltCodDepartamento').attr('disabled', 'disabled');   
+    $('#sltCodMunicipio').attr('disabled', 'disabled');   
+    $('#sltPeriodoVigJuntaDirectiva').attr('disabled', 'disabled');   
+    $('#sltEstado').attr('disabled', 'disabled');   
+    $('#sltCaracteristicasSindicatoInactivo').attr('disabled', 'disabled');   
+    $('#sltBienesInmueblesProp').attr('disabled', 'disabled');   
+    $('#sltClaseSindicato').attr('disabled', 'disabled');   
+    $('#sltSindicatoSegOriCap').attr('disabled', 'disabled');   
+    $('#sltSindicatoSegTipEmprEst').attr('disabled', 'disabled');   
+    $('#sltSindicatoEstModaContra').attr('disabled', 'disabled');   
+    $('#sltClasificacionEconSind').attr('disabled', 'disabled');   
+    $('#sltAfiliacionFederacionRegionalSec').attr('disabled', 'disabled');   
+    $('#sltAfiliacionFedRama').attr('disabled', 'disabled');   
+    $('#sltCentralSindProv').attr('disabled', 'disabled');   
+    $('#sltAfiliacionInt').attr('disabled', 'disabled');   
+    $('.check').attr('disabled', 'disabled');       
+    $('.radio').attr('disabled', 'disabled');   
+    $('#sltSindicatoSegCapEmp').attr('disabled', 'disabled');       
+});

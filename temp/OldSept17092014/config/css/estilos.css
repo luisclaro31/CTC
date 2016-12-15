@@ -1,0 +1,195 @@
+﻿/*****cabecera*****/
+@font-face {
+font-family: ARNOPRO;
+src: url('/config/css/Arno Pro Regular.ttf');
+}
+
+
+#principal{width: 100%; height: 95px;background-color: #E4E7EE;border-bottom: 5px solid #D1D1D1;}
+#cabecera{ width: 80%; }
+#cabeceraLogo{width: 306px; height: 106px;padding-top: 11px;float: left;}
+#cabeceraLogo img{ width: 282px; height: 74px;}
+#cabeceraLinks{float: left;margin-left: 50%;padding-top: 5px;}
+#faceLink{width: 28px;height: 22px;background-image: url('/config/images/fac_n.png');background-position: 0% 0%;}
+#cabeceraLinks a:hover{background-image: url('/config/images/linea.png');background-repeat: no-repeat;background-position: 0% 10px;}
+#cabeceraTexto {float: right;margin-right: 4%;padding-top: 0px;color: #1D3C6B;font-weight: bold;font-size: 16px;}
+#cabeceraBarraBusqueda{width: 360px;height: 44px;margin-top: -124px; float: left;margin-left: 44%;background-color: #444D4C;color: #fff;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;CCborderRadius: 5px;font-size: 12px;}
+#cabeceraBarraBusquedaIdioma{float: left;padding-top: 15px;margin-left: 15px;}
+#cabeceraBarraBusquedaEsp{float: left;padding-top: 18px;padding-left: 5px;}
+#cabeceraBarraBusquedaEsp img{width: 18px;height: 14px;}
+#cabeceraBarraBusquedaDesc{float: left;padding-top: 16px;}
+#cabeceraBarraBusquedaBuscador{float: left;padding-top: 10px;padding-left: 15px;}
+#buscador{width: 115px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;CCborderRadius: 5px;}
+#buscadorimg{float: left;padding-top: 12px;margin-left: -3px;}
+#buscadorimgInput{width: 28px;height: 22px;background-image: url('/config/Imagenes/Buscar.png'); border: 0px; }
+/*****menu*****/
+
+#menuP{float: left;margin-top: 67px;width: 100%;position:absolute;z-index: 1000;}
+#menuCol1{border-right: 0px solid #041c42;}
+#menuCol2{border-right: 1px solid #3e5984;}
+.menuNosotros{float:left;padding-top: 5px;padding-left: 7px;font-size: 13px;font-weight: bold;}	    
+.menuItemMenuNosotros{clear: both;padding-top: 15px;margin-bottom: 15px;}
+#menuItemMenuNosotros2{clear: both;padding-top: 15px;}
+#menuItemMenuNosotros2 a{margin-bottom: 7px;}
+.menuItemMenuNosotros a{margin-bottom: 7px;}
+#menuNosotros2{padding-left: 15px;}
+#menuPortafolio{clear: both;float:left;}
+#menuPortafolio2{float:left;padding-top: 5px;padding-left: 7px;font-size: 12px;}
+#menuItemMenuPortafolio{clear: both;padding-top: 15px;}
+#menuItemMenuPortafolio a{margin-bottom: 7px;}
+#menuPortafolio2{padding-left: 15px;}
+#menuItemMenuPortafolio2{clear: both;padding-top: 15px;}
+#menuItemMenuPortafolio2 a{margin-bottom: 7px;}
+.left{float:left;}
+/*****Banner*****/
+#banner{  clear: both;padding-top: 60px; }
+#bannerCont{ height:280px; width: 980px;clear: both;background-color: #0B183A;}
+.bannerContenidoInf{text-align: justify;background-image: url('/config/images/linea-banner.png');padding: 10px 35px 5px 25px;font-size: 19px;height: 120px;width: 209%;color: #fff;margin-top:145px;margin-left: -42%;}
+.bannerContenidoImg{float: left;margin-left: 910px;margin-top: -86px;border: 0;}
+.bannerContenidoImg1{float: left;margin-top:-79px;margin-left: 910px;border: 0;}
+/*****Banner 2*****/
+.ui-tabs-vertical { width: 55em; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+#banner2{clear: both;padding-top: 18px;height: 140px;bakground-color: #fff;margin-bottom: 15px;}
+#textoInicial{  width: 80%;font-size: 14px;text-align: justify;padding: 15px;margin-left: 45px;}
+#textoInicialFormato{float: left;width: 83%;}
+#textoInicialImg{float: left;margin-left: 35px;}
+.tabsBanner2{border: 0;width: 1000px;heigth: 100px;bakground-color: #fff;}
+#ulBanner2{width: 390px;background-color: #fff;border: 0;}
+#li1Banner2{padding:0;width: 390px;margin-bottom: 5px;}
+#li1Banner2 a{background-color: #766d6b;}
+.divBanner2{color: #fff;clear: both;cursor: pointer;width: 400px;height: 50px;background-color: #766d6b;}
+.divTitBanner2{float: left;font-size: 12px;margin-top: 7px;}
+.divImgBanner2{float: left;margin-left: 15px;margin-top: -3px;}
+.divItemsBanner2{font-size: 9px;float: left;margin-left: 15px;margin-right: -25px;background-color: #1D6088;width: 40%;height: 53px;margin-top: -10px;margin-bottom: -36px;color: #fff;padding-top: 15px;}
+.li2Banner2{width: 400px;background-color: #766d6b;margin-bottom: 5px;}
+.li2Banner2 a{background-color: #766d6b;}
+.divBanner2Desc{width: 107.2%; background-color: #766d6b;margin-left: -18px;height: 35px;padding-top: 10px;}
+.divBanner2Desc1{clear: both;float: left;font-size: 11px;width: 60%;text-align: justify;}
+.right{float: right;}
+.divBannerDescImg{  float: left;font-size: 12px;width: 18%;margin-left: 25px;}
+#bannerestilo2{ data-y="-100" data-z="1500" data-rotate="170" }
+
+/*****Pie de página*****/
+#piePag{clear: both;margin-top: 860px;width: 100%; height: 120px;background-color: #1C3C6D; border-top: 10px solid #0065A7;}
+#divPie{clear: both;width: 80%;}
+#divPieDesc{float: left;height: 86px;padding-top: 1px;float: left;}
+#divPieLogo{float: left;width: 320px;margin-top: 15px;}
+#divPieLogo a{color: #fff;}
+#divPieDescDatos{float: left;margin-left: 50px;margin-top: 10px;width: 320px;text-align: center; color: #fff;font-weight: normal; font-size: 12px;}
+#divPieContac{color: #fff;margin-left: 3px;margin-top: -50px;font-family: Arial;font-size: 11px;}
+#divPieSig{float: left;margin-left: 100px;color: #fff;font-weight: bold; font-size: 11px;padding-top: 5px;}
+#divPieSigLinks{float: right;margin-left: 12px;margin-top: 15px;}
+#lineInfG{clear: both;float: left;margin-top: 1px;margin-left: 2px;background-color: #041b44;height: 1px;width: 98%;}
+#lineInfN{clear: both;float: left;margin-bottom: 1px; margin-left: 2px;background-color: #405884;height: 1px;width: 98%;}
+#divPieCopy{clear: both;margin-top: 5px;float: right;color: #fff;font-weight: bold; font-size: 10px;}
+/*****Nosotros*****/
+#content{margin-top: -1101px; clear: both;  }
+
+ul.accordion{
+    list-style:none;   
+    position:absolute;
+    right:13%;
+    top:440px;    
+    font-size: 16px;	
+    font-style: normal;
+    line-height: 1.5em;
+    background-color: #fff;
+
+}
+ul.accordion li{
+    float:right;
+    width:115px;
+    height:500px;
+    display:block;    
+    border-right:1px solid #fff;
+    border-bottom:2px solid #fff;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    background-position:center center;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    -moz-box-shadow:1px 3px 15px #555;
+    -webkit-box-shadow:1px 3px 15px #555;
+    box-shadow:1px 3px 15px #555;
+}
+ul.accordion li.bg1{
+	background: #ffffff url("/config/images/a_6.jpg") no-repeat center top;
+		
+}
+ul.accordion li.bg2{
+    background: #ffffff url("/config/images/a_5.jpg") no-repeat center top;
+}
+ul.accordion li.bg3{
+    background: #ffffff url("/config/images/a_4.jpg") no-repeat center top;
+}
+ul.accordion li.bg4{
+    background: #ffffff url("/config/images/a_3.jpg") no-repeat center top;
+}
+ul.accordion li.bg5{
+    background: #ffffff url("/config/images/a_2.jpg") no-repeat center top;
+}
+ul.accordion li.bg6{
+    background: #ffffff url("/config/images/a_1.jpg") no-repeat center top;
+}
+ul.accordion li.bleft{
+    border-left:1px solid #fff;
+}
+
+ul.accordion li .descriptionI h2{
+    text-transform:uppercase;
+    font-style:normal;
+    font-weight:bold;
+    letter-spacing:1px;
+    line-height: 40px;
+    font-size:34px;
+    color:#444;
+    text-align:center;
+    margin:0px 0px 15px 10px;
+    text-shadow:-1px -1px 1px #ccc;
+}
+
+ul.accordion li .heading{
+    background-color:#fff;
+    padding:10px;
+    margin-top:60px;
+    opacity:0.9;
+    text-transform:uppercase;
+    font-style:normal;
+    font-weight:bold;
+    letter-spacing:1px;
+    font-size:14px;
+    color:#444;
+    text-align:center;
+    text-shadow:-1px -1px 1px #ccc;
+}
+/*modificacion de letras desplegables*/
+ul.accordion li .descriptionI{
+    top: 55%;
+    position:absolute;
+    width:340px;
+    height:385px;
+    bottom: 5px;
+    left:11px;    
+    display:none;    
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 16px;
+}
+
+ul.accordion li .bgDescription{
+    background:transparent url("/config/images/bgDescription.png") repeat-x top left;	
+    height:340px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    display:none;
+}
