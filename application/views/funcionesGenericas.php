@@ -91,7 +91,7 @@ function Cabecera($titulo, $datosUsuario, $tab = "tabModificar", $tabActivo = 2)
 
     <div id="divMenu">
         <ul id="menu">
-            <?php
+           <?php
                 if($datosUsuario['perfil'] == "Administracion")
                 {
             ?>
@@ -99,48 +99,61 @@ function Cabecera($titulo, $datosUsuario, $tab = "tabModificar", $tabActivo = 2)
                     <ul>
                         <li><a href="/index.php/controladorUsuario">Usuarios</a>
                         <ul>
-<!--                        <li><a href="/index.php/controladorMenu">Gesti�n Men�</a></li>
-                        <li><a href="#">Men� por Usuario</a></li>-->
-                        <li><a href="/index.php/controladorUsuarioSindicato">Usuario por Organizaci�n Sindical</a></li>
+<!--                        <li><a href="/index.php/controladorMenu">Gestión Menú</a></li>
+                        <li><a href="#">Menú por Usuario</a></li>-->
+                        <li><a href="/index.php/controladorUsuarioSindicato">Usuario por Organización Sindical</a></li>
                         </ul>
                         </li>
-                        <li><a href="#">Par�metros</a>
+                        <li><a href="#">Parámetros</a>
                         <ul>
                         <li><a href="/index.php/controladorDepartamento">Departamentos</a></li>
                         <li><a href="/index.php/controladorMunicipio">Municipios</a></li>
-                        <li><a href="/index.php/controladorGenerico">Variables Tipo Categor�a</a></li>
+                        <li><a href="/index.php/controladorGenerico">Variables Tipo Categoría</a></li>
                         <li><a href="/index.php/controladorEstado">Variables Tipo Estado</a></li>
                         <li><a href="/index.php/controladorCargo">Variables Tipo Cargo</a></li>
                         </ul>
                         </li>
                         <li><a href="/index.php/controladorAuditoria">Auditoria</a></li>
-                        <li><a href="/index.php/controladorCargue">Cargue de Informaci�n</a></li>
+                        <li><a href="/index.php/controladorCargue">Cargue de Información</a></li>
                     </ul>
                     </li>
-                    <li><a href="/index.php/controladorFederacion">Federaciones</a>
+                    <li><a href="#">Organizaciones</a>
+			<ul>
+                    <li><a href="#">Federaciones</a>
                         <ul>
+			    <li><a href="/index.php/controladorFederacion">Informaciòn Federaciòn</a>
                             <li><a href="/index.php/controladorFederacionSindicato">Sindicatos Afiliados</a></li>
                             <li><a href="/index.php/controladorDirectivoFederacion">Directivos y Sub Directivos</a></li>
                         </ul>
                     </li>
-                    <li><a href="/index.php/controladorSeccional">Seccionales</a>
+		    </li>
+                    <li><a href="#">Seccionales</a>
                         <ul>
+			    <li><a href="/index.php/controladorSeccional">Informaciòn Seccional</a>
                             <li><a href="/index.php/controladorSeccionalFederacion">Federaciones Afiliadas</a></li>
                             <li><a href="/index.php/controladorDirectivoSeccional">Directivos y Sub Directivos</a></li>
                         </ul>
                     </li>
-                    <li><a href="/index.php/controladorSindicato">Sindicatos</a>
+                    <li><a href="#">Sindicatos</a>
                             <ul>
+				<li><a href="/index.php/controladorSindicato">Informaciòn Sindicatos</a>
                                 <li><a href="/index.php/controladorDirectivo">Directivos y Sub Directivos</a></li>
                             </ul>
+			</ul>
                     </li>
                     <li><a href="/index.php/controladorEmpresa">Empresas</a></li>
-                    <li><a href="/index.php/controladorConvenioColectivo">Convenios Colectivos</a>
+                    <li><a href="#">Negociaciòn Colectiva</a>
                     <ul>
+			<li><a href="/index.php/controladorConvenioColectivo">Convenios Colectivos</a>
                         <li><a href="/index.php/controladorSindicatoConvenio">Sindicatos X Convenio</a></li>
                     </ul>
                     </li>
-                    <li><a href="/index.php/controladorAfiliado">Afiliados</a></li>
+                    <li><a href="#">Afiliados</a>
+                    <ul>
+                      <li><a href="/index.php/controladorAfiliado">Informaciòn Afiliados</a>
+                      <li><a href="/index.php/controladorVictima">Victimas</a></li>
+                      </ul>
+			</li>
             <?php
                 }
             ?>
@@ -204,11 +217,11 @@ function Cabecera($titulo, $datosUsuario, $tab = "tabModificar", $tabActivo = 2)
                 if($datosUsuario['perfil'] != "Administracion")
                 {
             ?>
-                    <li><a href="/index.php/controladorUsuario/ConsultarUsuario/<?php echo $datosUsuario['idUsuario'] ?>">Gesti�n Cuenta</a></li>
+                    <li><a href="/index.php/controladorUsuario/ConsultarUsuario/<?php echo $datosUsuario['idUsuario'] ?>">Gestión Cuenta</a></li>
             <?php
                 }
             ?>
-            <li><a href="/index.php/login/Logout">Cerrar Sesi�n</a></li>
+            <li><a href="/index.php/login/Logout">Cerrar Sesión</a></li>
         </ul>
     </div>
     <div class="clearBoth"></div>

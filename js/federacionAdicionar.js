@@ -8,7 +8,7 @@ $(function(){
              minlength: 6
           },
           txtNumeroResolucionAdic:{
-             required: true,
+             required: false,
              digits: true
           },            
           txtFechaAdic: {
@@ -18,6 +18,9 @@ $(function(){
           txtNombreFederacionAdic:{
              required: true
           },
+            txtSiglaAdic: {
+                required: true
+            },
           sltDepartamentoAdic: {
               required: true
           },
@@ -47,12 +50,12 @@ $(function(){
         messages: {            
             txtRutAdic: { 
                 required: "Escriba el RUT",
-                digits: "Solo se permiten números",
-                minlength: "Mínimo 6 digitos"
+                digits: "Solo se permiten nï¿½meros",
+                minlength: "Mï¿½nimo 6 digitos"
             },
             txtNumeroResolucionAdic: { 
-                required: "Escriba un número de resolución",
-                digits: "Solo se permiten números"
+                required: "Escriba un nï¿½mero de resoluciï¿½n",
+                digits: "Solo se permiten nï¿½meros"
             },                        
             txtFechaAdic: "Escriba o seleccione una fecha valida",            
             txtNombreFederacionAdic: "Escriba un nombre",
@@ -151,10 +154,10 @@ $(function(){
             $('#tabAdicionar').tabs({ active: index });
             $("#txtOtrosBienesInmueblesAdic").css({'border': "1px solid #A30000"});
             $('#txtOtrosBienesInmueblesAdic').focus();            
-            $( "#divError" ).text( "Falta diligenciar el campo Otros Bienes Inmuebles de la pestaña información administrativa." ).show();
+            $( "#divError" ).text( "Falta diligenciar el campo Otros Bienes Inmuebles de la pestaï¿½a informaciï¿½n administrativa." ).show();
         }
         else
-            $( "#divError" ).text( "Falta diligenciar campos obligatorios, revisar todas las pestañas." ).show();
+            $( "#divError" ).text( "Falta diligenciar campos obligatorios, revisar todas las pestaï¿½as." ).show();
         
         event.preventDefault();        
       }
