@@ -301,17 +301,17 @@ function FinalDocumento()
  */
 function convertir_tildes($cadena)
 {
-    $cadena = str_replace("�","&aacute;",$cadena);
-    $cadena = str_replace("�","&eacute;",$cadena);
-    $cadena = str_replace("�","&iacute;",$cadena);
-    $cadena = str_replace("�","&oacute;",$cadena);
-    $cadena = str_replace("�","&uacute;",$cadena);
+    $cadena = str_replace("á","&aacute;",$cadena);
+    $cadena = str_replace("é","&eacute;",$cadena);
+    $cadena = str_replace("í","&iacute;",$cadena);
+    $cadena = str_replace("ó","&oacute;",$cadena);
+    $cadena = str_replace("ú","&uacute;",$cadena);
     $cadena = str_replace("�","&ntilde;",$cadena);
-    $cadena = str_replace("�","&Aacute;",$cadena);
-    $cadena = str_replace("�","&Eacute;",$cadena);
-    $cadena = str_replace("�","&Iacute;",$cadena);
-    $cadena = str_replace("�","&Oacute;",$cadena);
-    $cadena = str_replace("�","&Uacute;",$cadena);
+    $cadena = str_replace("Á","&Aacute;",$cadena);
+    $cadena = str_replace("É","&Eacute;",$cadena);
+    $cadena = str_replace("Í","&Iacute;",$cadena);
+    $cadena = str_replace("Ó","&Oacute;",$cadena);
+    $cadena = str_replace("Ú","&Uacute;",$cadena);
     $cadena = str_replace("�","&Ntilde;",$cadena);
     return $cadena;
 }
@@ -333,17 +333,17 @@ function quitar_tildes($cadena)
     $cadena = str_replace("&Oacute;","O",$cadena);
     $cadena = str_replace("&Uacute;","U",$cadena);
     $cadena = str_replace("&Ntilde;","�",$cadena);
-    $cadena = str_replace("�","a",$cadena);
-    $cadena = str_replace("�","e",$cadena);
-    $cadena = str_replace("�","i",$cadena);
-    $cadena = str_replace("�","o",$cadena);
-    $cadena = str_replace("�","u",$cadena);
+    $cadena = str_replace("á","a",$cadena);
+    $cadena = str_replace("é","e",$cadena);
+    $cadena = str_replace("í","i",$cadena);
+    $cadena = str_replace("ó","o",$cadena);
+    $cadena = str_replace("ú","u",$cadena);
     $cadena = str_replace("�","�",$cadena);
-    $cadena = str_replace("�","A",$cadena);
-    $cadena = str_replace("�","E",$cadena);
-    $cadena = str_replace("�","I",$cadena);
-    $cadena = str_replace("�","O",$cadena);
-    $cadena = str_replace("�","U",$cadena);
+    $cadena = str_replace("Á","A",$cadena);
+    $cadena = str_replace("É","E",$cadena);
+    $cadena = str_replace("Í","I",$cadena);
+    $cadena = str_replace("Ó","O",$cadena);
+    $cadena = str_replace("Ú","U",$cadena);
     $cadena = str_replace("�","�",$cadena);
     return $cadena;
 
@@ -355,33 +355,33 @@ function quitar_tildes($cadena)
 function mayusculas($cadena)
 {
     return strtr(strtoupper($cadena), array(
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
-        "�" => "�",
+        "a" => "A",
+        "b" => "B",
+        "c" => "C",
+        "d" => "D",
+        "e" => "E",
+        "f" => "F",
+        "g" => "G",
+        "h" => "H",
+        "i" => "I",
+        "j" => "J",
+        "k" => "K",
+        "l" => "L",
+        "m" => "M",
+        "n" => "N",
+        "o" => "O",
+        "p" => "P",
+        "q" => "Q",
+        "r" => "R",
+        "s" => "S",
+        "t" => "T",
+        "u" => "U",
+        "v" => "V",
+        "w" => "W",
+        "x" => "X",
+        "y" => "Y",
+        "z" => "Z",
+        "ñ" => "Ñ",
         "&AACUTE;" => "&Aacute;",
         "&EACUTE;" => "&Eacute;",
         "&IACUTE;" => "&Iacute;",

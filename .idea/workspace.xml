@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ec32e9-2388-4e32-ba0a-27821d87c091" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/vistaFederacio.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/controladorVictima.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/vistaVictima.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/funcionesGenericas.php" afterPath="$PROJECT_DIR$/application/views/funcionesGenericas.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/vistaAfiliado.php" afterPath="$PROJECT_DIR$/application/views/vistaAfiliado.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/federacionAdicionar.js" afterPath="$PROJECT_DIR$/js/federacionAdicionar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/vistaAuditoria.php" afterPath="$PROJECT_DIR$/application/views/vistaAuditoria.php" />
     </list>
     <ignored path="CTCPubli.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,49 +27,7 @@
     <favorites_list name="CTCPubli" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="federacionAdicionar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/federacionAdicionar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vistaFederacion.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/vistaFederacion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="0" column="52638" selection-start-line="0" selection-start-column="52638" selection-end-line="0" selection-end-column="52638" />
-              <folding>
-                <marker date="1481859346946" expanded="true" signature="3590:3602" ph="..." />
-                <marker date="1481859346946" expanded="true" signature="3656:3662" ph="⇓" />
-                <marker date="1481859346946" expanded="true" signature="3818:3830" ph="..." />
-                <marker date="1481859346946" expanded="true" signature="3899:3905" ph="⇓" />
-                <marker date="1481859346946" expanded="true" signature="4108:4120" ph="..." />
-                <marker date="1481859346946" expanded="true" signature="4177:4183" ph="⇓" />
-                <marker date="1481859346946" expanded="true" signature="4334:4346" ph="..." />
-                <marker date="1481859346946" expanded="true" signature="4410:4416" ph="⇓" />
-                <marker date="1481859346946" expanded="true" signature="4548:4560" ph="..." />
-                <marker date="1481859346946" expanded="true" signature="4621:4627" ph="⇓" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controladorFederacion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/controladorFederacion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2416">
-              <caret line="441" column="4" selection-start-line="441" selection-start-column="4" selection-end-line="441" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,17 +37,18 @@
       <list>
         <option value="$PROJECT_DIR$/application/views/login.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/application/views/vistaAuditoria.php" />
         <option value="$PROJECT_DIR$/application/views/vistaUsuario.php" />
         <option value="$PROJECT_DIR$/application/views/vistaUsuarioSindicato.php" />
         <option value="$PROJECT_DIR$/application/views/vista.php" />
         <option value="$PROJECT_DIR$/application/views/vistaAfiliad.php" />
         <option value="$PROJECT_DIR$/application/views/vistaAfiliado.php" />
-        <option value="$PROJECT_DIR$/application/views/funcionesGenericas.php" />
         <option value="$PROJECT_DIR$/application/views/vistaFederacio.php" />
         <option value="$PROJECT_DIR$/application/views/vistaFederacion.php" />
         <option value="$PROJECT_DIR$/js/federacionAdicionar.js" />
+        <option value="$PROJECT_DIR$/system/libraries/Upload.php" />
+        <option value="$PROJECT_DIR$/application/views/funcionesGenericas.php" />
+        <option value="$PROJECT_DIR$/application/views/vistaAuditoria.php" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
       </list>
     </option>
   </component>
@@ -105,9 +64,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="y" value="75" />
+    <option name="width" value="1291" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -134,7 +93,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -164,20 +122,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CTCPubli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CTCPubli" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -196,38 +140,23 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CTCPubli" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CTCPubli" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Projects/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CUT/excellentiam" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
@@ -300,12 +229,13 @@
       <workItem from="1481691850723" duration="1415000" />
       <workItem from="1481750738141" duration="5000" />
       <workItem from="1481832138298" duration="9173000" />
-      <workItem from="1481855493280" duration="4967000" />
+      <workItem from="1481855493280" duration="5959000" />
+      <workItem from="1482119177261" duration="2765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26243000" />
+    <option name="totallyTimeSpent" value="30000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,14 +247,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="75" width="1291" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33227092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33815262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -441,20 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/jquery-ui.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-24291">
@@ -495,13 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="154" column="16934" selection-start-line="154" selection-start-column="16934" selection-end-line="154" selection-end-column="16934" />
-          <folding>
-            <marker date="1481835071661" expanded="true" signature="3873:4253" ph="..." />
-            <marker date="1481835071661" expanded="true" signature="4027:4203" ph="..." />
-            <marker date="1481835071661" expanded="true" signature="4349:5185" ph="..." />
-            <marker date="1481835071661" expanded="true" signature="4501:4675" ph="..." />
-            <marker date="1481835071661" expanded="true" signature="4958:5135" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -509,16 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="231" column="26" selection-start-line="231" selection-start-column="26" selection-end-line="231" selection-end-column="26" />
-          <folding>
-            <marker date="1481839118336" expanded="true" signature="1203:1289" ph="..." />
-            <marker date="1481839118336" expanded="true" signature="1431:1519" ph="..." />
-            <marker date="1481839118336" expanded="true" signature="1698:1785" ph="..." />
-            <marker date="1481839118336" expanded="true" signature="1929:2004" ph="..." />
-            <marker date="1481839118336" expanded="true" signature="2183:2273" ph="..." />
-            <marker date="1481839118336" expanded="true" signature="2417:2495" ph="..." />
-            <marker date="1481839118336" expanded="true" signature="4103:4560" ph="..." />
-            <marker date="1481839118336" expanded="true" signature="4333:4510" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -534,14 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-467">
           <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/vistaAuditoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1818">
-          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -566,7 +457,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1481856790320" expanded="true" signature="1136:1233" ph="..." />
+            <marker date="1481856790320" expanded="true" signature="1375:1497" ph="..." />
+            <marker date="1481856790320" expanded="true" signature="1683:1801" ph="..." />
+            <marker date="1481856790320" expanded="true" signature="3446:3458" ph="..." />
+            <marker date="1481856790320" expanded="true" signature="3520:3526" ph="⇓" />
+            <marker date="1481856790320" expanded="true" signature="3721:3733" ph="..." />
+            <marker date="1481856790320" expanded="true" signature="3810:3816" ph="⇓" />
+            <marker date="1481856790320" expanded="true" signature="3985:3997" ph="..." />
+            <marker date="1481856790320" expanded="true" signature="4060:4066" ph="⇓" />
+            <marker date="1481856790320" expanded="true" signature="4231:4243" ph="..." />
+            <marker date="1481856790320" expanded="true" signature="4305:4311" ph="⇓" />
+            <marker date="1481856790320" expanded="true" signature="4443:4455" ph="..." />
+            <marker date="1481856790320" expanded="true" signature="4514:4520" ph="⇓" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -589,22 +494,6 @@
             <marker date="1481856790320" expanded="true" signature="4443:4455" ph="..." />
             <marker date="1481856790320" expanded="true" signature="4514:4520" ph="⇓" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/funcionesGenericas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="224" column="13" selection-start-line="224" selection-start-column="13" selection-end-line="224" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/controladorFederacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2416">
-          <caret line="441" column="4" selection-start-line="441" selection-start-column="4" selection-end-line="441" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,14 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/federacionAdicionar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/vistaFederacion.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -656,6 +537,114 @@
             <marker date="1481859346946" expanded="true" signature="4548:4560" ph="..." />
             <marker date="1481859346946" expanded="true" signature="4621:4627" ph="⇓" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/federacionAdicionar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/controladorFederacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2416">
+          <caret line="441" column="4" selection-start-line="441" selection-start-column="4" selection-end-line="441" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/_htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/funcionesGenericas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2330">
+          <caret line="407" column="2" selection-start-line="295" selection-start-column="0" selection-end-line="407" selection-end-column="2" />
+          <folding>
+            <element signature="e#2702#2737#0#HTML" expanded="true" />
+            <element signature="e#2783#2823#0#HTML" expanded="true" />
+            <element signature="e#11252#11275#0#HTML" expanded="true" />
+            <element signature="e#11298#11304#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/vistaAuditoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/libraries/Upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="203" column="46" selection-start-line="203" selection-start-column="46" selection-end-line="203" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/vistaVictima.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481556942000" expanded="true" signature="1191:1277" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="1434:1543" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="1741:1846" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="2002:2095" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="2288:2392" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="2548:2640" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="2991:3102" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="3018:3081" ph="{...}" />
+            <marker date="1481556942000" expanded="true" signature="4950:5330" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="5104:5280" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="5502:5878" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="5654:5828" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="6069:6905" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="6221:6395" ph="..." />
+            <marker date="1481556942000" expanded="true" signature="6678:6855" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/controladorVictima.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="33" selection-end-line="63" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5170">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

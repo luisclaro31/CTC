@@ -6,7 +6,7 @@
  */
 include($_SERVER['DOCUMENT_ROOT']."/application/views/funcionesGenericas.php");
 
-$tituloPagina = "Gesti�n Auditoria";
+$tituloPagina = "Gestión Auditoria";
 $soloLectura = "";
 
 if(isset($error))
