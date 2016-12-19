@@ -85,7 +85,7 @@ function Cabecera($titulo, $datosUsuario, $tab = "tabModificar", $tabActivo = 2)
         <img  src="/images/logo.png"  height="100" />
     </div>
     <div id="titEncabezado">
-         SISTEMA DE INFORMACION SINDICAL - SIS
+         hola si SISTEMA DE INFORMACION SINDICAL - SIS
     </div>
     <div class="clearBothMenu"></div>
 
